@@ -1,0 +1,189 @@
+body {
+  background: none;
+}
+
+main {
+  background: url(./assets/blob-scene-haikei.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.containerPrincipal {
+  margin: 10rem auto 0 auto;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.433) 0px 5px 15px;
+  width: 100rem;
+  height: 60rem;
+  padding: 1rem;
+  background-color: #f8f8f8;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.containerDetail {
+  display: flex;
+}
+
+.containerLeft {
+  width: 50%;
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.containerRigth {
+  width: 50%;
+  margin-top: 120px;
+  text-align: left;
+}
+
+.picture {
+}
+
+.imgDetail {
+  width: 300px;
+  height: 300px;
+  border-radius: 99rem;
+  box-shadow: rgba(0, 0, 0, 0.59) 0px 5px 15px;
+  padding: 0.3rem;
+  border: 0.8rem solid #f4a927;
+}
+
+.li {
+  list-style: none;
+  padding: 0.5rem 0.5rem;
+  border-radius: 4rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #f8f8f8;
+  background-color: #92bc5ad5;
+  display: inline-block;
+  margin: 1rem;
+}
+
+.dishTypes {
+  list-style: none;
+  padding: 0.5rem 0.5rem;
+  border-radius: 4rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #f8f8f8;
+  background-color: #f4a927;
+  display: inline-block;
+  margin: 1rem;
+}
+
+.titleDetail {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.textSummary {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.textSummary a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+
+  margin-bottom: 1rem;
+}
+
+.liSteptsNumber {
+  list-style: none;
+  margin-bottom: 0.9rem;
+  font-weight: 900;
+  padding: 0.8rem 1.2rem;
+  display: inline;
+  border-radius: 6rem;
+  background-color: #f4a927;
+  color: #f8f8f8;
+}
+
+.liSteptsStep {
+  list-style: none;
+  margin-bottom: 0.9rem;
+  background-color: #92bc5ad5;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  color: #f8f8f8;
+  font-weight: bold;
+}
+
+.containerSteps {
+  margin-top: 2rem;
+}
+
+.titleLogo {
+  font-size: 2.2rem;
+
+  color: #6aa419;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.spanTitleLogo {
+  color: #f4a927;
+  font-weight: 900;
+}
+
+.contaimerTitle {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 2rem 4rem;
+}
+
+.titleDiets {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.numberScoreAndHealt {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.containerNumrbes {
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.containerScore {
+  width: 7.2rem;
+  height: 7.2rem;
+  padding-top: 1.2rem;
+  border-radius: 4rem;
+  background-color: #f4a927e3;
+  cursor: pointer;
+  color: #f8f8f8;
+}
+
+.divcontainerLoader {
+  position: absolute;
+  top: 0;
+  left: 44%;
+}

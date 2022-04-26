@@ -1,0 +1,183 @@
+.backgroundAll {
+  background: url(./blob-scene-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.containerMain {
+  margin: 0 auto;
+  border-radius: 1.2rem;
+  width: 105rem;
+  height: 70rem;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.containerImage {
+  background: linear-gradient(
+      to right,
+      #0000002a,
+      #00000052,
+      #00000019,
+      #f8f8f8a3,
+      #f8f8f8
+    ),
+    url('./pexels-ready-made-3850888.jpg');
+
+  width: 90%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+  border-end-end-radius: 0rem;
+  border-top-right-radius: 0rem;
+}
+
+.containerFormText {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 1rem;
+  width: 100%;
+  background-color: #f8f8f8;
+  border-radius: 2rem;
+  margin-top: 3rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 0.6rem;
+  width: 50%;
+}
+
+.containerInputLabe {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 100%;
+}
+
+.inputs {
+  width: 100%;
+  padding: 0.8rem 1.4rem;
+  color: rgb(77, 76, 76);
+  outline: none;
+  border-radius: 1.5rem;
+  background-color: #eeeae7;
+  border: none;
+}
+
+label {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.span {
+  color: red;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.inputsError {
+  width: 100%;
+  padding: 0.8rem 1.4rem;
+  color: rgb(77, 76, 76);
+  outline: 1.2px solid red;
+  border-radius: 1.5rem;
+  background-color: #eeeae7;
+  border: none;
+}
+
+.buttondisableTrue {
+  background-color: #f4a927;
+  padding: 1rem 1.4rem;
+  color: #f8f8f8;
+  border-radius: 4rem;
+  border: none;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  font-weight: 900;
+  cursor: pointer;
+  transition: all 0.23s;
+}
+
+.buttondisableFalse {
+  background-color: #6d6c6c;
+  padding: 1rem 1.4rem;
+  color: #f8f8f8;
+  border-radius: 4rem;
+  border: none;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  font-weight: 900;
+  cursor: pointer;
+  transition: all 0.23s;
+  cursor: no-drop;
+}
+
+.containerDiets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: 0.8rem;
+}
+
+.diets {
+  background-color: #92bc5ad5;
+  padding: 0.5rem 0.9rem;
+  border-radius: 4rem;
+  display: flex;
+  align-items: center;
+  color: #f8f8f8;
+  width: 80px;
+  justify-content: space-between;
+  max-height: auto;
+}
+
+.buttonX {
+  border: none;
+  background-color: transparent;
+  color: #f8f8f8;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.titleLogo {
+  font-size: 2.5rem;
+
+  color: #6aa419;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.spanTitleLogo {
+  color: #f4a927;
+  font-weight: 900;
+}
+
+.contaimerTitle {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 2rem 4rem;
+}
+
+.titleCreate {
+  font-size: 2.4rem;
+  color: #6aa419;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 2rem;
+}

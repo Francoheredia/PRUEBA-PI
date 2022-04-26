@@ -1,0 +1,92 @@
+.containerGenera {
+}
+
+.headerMain {
+  width: 100%;
+
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+}
+
+.textAbsolute {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  padding-top: 270px;
+  padding-left: 80px;
+  margin: auto;
+  text-align: left;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #f1f1f1;
+}
+
+.title {
+  font-size: 6rem;
+  margin-bottom: 1rem;
+  width: 45%;
+  font-weight: bolder;
+  line-height: 1.2;
+}
+
+.text {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  width: 35%;
+  margin-bottom: 2.5rem;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: linear-gradient(
+    to right,
+    #000000,
+    #000000cb,
+    #000000a4,
+    #00000060,
+    #0000001c
+  );
+}
+
+.LinkButton {
+  display: inline-block;
+  padding: 1rem 2.2rem;
+  border: 1px solid #4f4f4f;
+  border-radius: 2rem;
+  transition: all 0.5s ease-in;
+  position: relative;
+  overflow: hidden;
+  font-size: 1.7rem;
+  background-color: #f4a927;
+  color: white;
+  font-weight: 900;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.nameUser {
+  font-size: 1.6rem;
+  margin-right: 1rem;
+}
+
+.inputLanding {
+  border-radius: 4rem;
+  padding: 1rem 2.2rem;
+  background-color: #6b6a696e;
+  border: none;
+  width: 10%;
+  margin-bottom: 1rem;
+  outline: none;
+}

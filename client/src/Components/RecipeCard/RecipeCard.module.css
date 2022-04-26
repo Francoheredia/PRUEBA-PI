@@ -1,0 +1,71 @@
+.containerCard {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.9rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 35rem;
+  height: 39rem;
+  transition: all 0.25s;
+  position: relative;
+  cursor: pointer;
+  overflow-y: hidden;
+}
+
+.containerCard:hover {
+  transform: translateY(-15px);
+}
+
+.img {
+  border-radius: 0.9rem;
+
+  width: 350px;
+  height: 280px;
+}
+
+.li {
+  list-style: none;
+  padding: 0.5rem 0.5rem;
+  border-radius: 4rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #f8f8f8;
+  background-color: #92bc5ad5;
+}
+
+.containerTextCard {
+  padding: 1rem;
+  border-radius: 0.9rem;
+  z-index: 1111;
+}
+
+.buttonLink {
+  padding: 1rem 1rem;
+  border-radius: 4.9rem;
+  text-decoration: none;
+  background-color: #f4a927;
+  border: none;
+  color: #f8f8f8;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.containertitleInfo {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerDiets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  width: 60%;
+  height: 20px;
+}
+
+.titleCard {
+  font-size: 1rem;
+  font-weight: bold;
+  width: 70%;
+}

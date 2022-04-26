@@ -1,0 +1,132 @@
+.headerS {
+  padding: 4rem 8rem;
+  background: url(./assets/pruebafinal.svg);
+  height: 70vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position-y: 0rem;
+  background-size: cover;
+}
+
+.divGeneral {
+  background-color: #f8f8f8;
+  margin-bottom: 10rem;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.containerNavFilter {
+  display: flex;
+  align-items: center;
+  padding: 3rem;
+  border: 1px solid #dfdddd;
+  justify-content: space-around;
+  border-radius: 4.5rem;
+  box-shadow: rgba(0, 0, 0, 0.261) 0px 5px 15px;
+  margin: 0 auto;
+  width: 75%;
+}
+
+.paginadoContainer {
+  margin: 0 auto;
+}
+
+.titleLogo {
+  font-size: 2.5rem;
+
+  color: #6aa419;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.spanTitleLogo {
+  color: #f4a927;
+  font-weight: 900;
+}
+
+.dish {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  right: 0;
+  margin-right: 400px;
+  transition: all 1s;
+}
+
+.dish:hover {
+  transform: rotate(660deg);
+  /* -ms-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg); */
+}
+
+.inpusFilter {
+  border: 1.9px solid #6aa419;
+  color: grey;
+  border-radius: 4.9rem;
+  padding: 1rem 1rem;
+  background-color: transparent;
+  margin-left: 1rem;
+  outline: none;
+}
+
+.labelFilter {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.buttonCreate {
+  background-color: #f4a927;
+  padding: 1.2rem 1.4rem;
+  color: #f8f8f8;
+  border-radius: 4.9rem;
+  border: none;
+  font-weight: 800;
+  cursor: pointer;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.buttonCreate:hover {
+  box-shadow: rgba(255, 255, 255, 0.33) 0px 5px 15px;
+}
+
+.h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  color: #6aa419;
+  width: 50%;
+  line-height: 1.1;
+}
+.h1Span {
+  font-size: 5rem;
+  font-weight: 900;
+  color: #f4a927;
+}
+
+.containerTitleText {
+  margin-top: 9rem;
+  width: 70%;
+}
+
+.pSubTitle {
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 400;
+  line-height: 1.6;
+  width: 45%;
+  margin-top: 1.2rem;
+}
+.messageError {
+  color: #6aa419;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 8rem;
+}

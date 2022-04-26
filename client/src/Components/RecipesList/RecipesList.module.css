@@ -1,0 +1,17 @@
+.containerMain {
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.gridRecipes {
+  display: grid;
+  gap: 18rem;
+  grid-auto-rows: 25rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr));
+}
+
+.li {
+  list-style: none;
+}
